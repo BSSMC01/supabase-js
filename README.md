@@ -73,6 +73,12 @@ You can use supabase-js in the Deno runtime via [JSR](https://jsr.io/@supabase/s
 import { createClient } from 'jsr:@supabase/supabase-js@2'
 ```
 
+#### Example: verifying a secure Base44 email link
+
+The [`examples/base44-verify-secure-link.ts`](./examples/base44-verify-secure-link.ts) script shows how you can use a Deno
+edge function with [`@base44/sdk`](https://www.npmjs.com/package/@base44/sdk) to verify a secure link token, check for
+expiration, and confirm the customer's email before marking the link as verified.
+
 ### Custom `fetch` implementation
 
 `supabase-js` uses the [`cross-fetch`](https://www.npmjs.com/package/cross-fetch) library to make HTTP requests, but an alternative `fetch` implementation can be provided as an option. This is most useful in environments where `cross-fetch` is not compatible, for instance Cloudflare Workers:
