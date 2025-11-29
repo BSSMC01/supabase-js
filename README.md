@@ -2,6 +2,8 @@
 
 - **Documentation:** https://supabase.com/docs/reference/javascript/start
 - TypeDoc: https://supabase.github.io/supabase-js/v2/
+- Additional guides:
+  - [Handling signed PDF forms with Supabase JS](docs/guides/handling-signed-forms.md)
 
 > [!NOTE]
 > Do you want to help us shape the future of this library? [We're hiring](https://jobs.ashbyhq.com/supabase/85d07345-47c6-4980-82e2-57782f83ab4e).
